@@ -1,0 +1,58 @@
+.search_input_container {
+  position: fixed;
+  height: 30px;
+  right: 20%;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+.search_input {
+  width: 120px;
+  background-color: transparent;
+  outline: none;
+  border-style: none;
+  color: #ffffff;
+}
+.search_input_button {
+  height: 28px;
+  background: #2c2b2b;
+  border-radius: 0px 4px 4px 0px;
+  color: #ffffff;
+}
+.search_middle_card {
+  width: 100%;
+  background-color: #000000;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.No_movies_found_text {
+  color: #ffffff;
+}
+.No_movies_found {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.searchInput_value {
+  color: red;
+}
+@media (min-width: 760px) {
+  .search_input {
+    width: 200px;
+  }
+  .search_input_container {
+    right: 10%;
+  }
+  .search_middle_card {
+    min-height: 80vh;
+  }
+}
